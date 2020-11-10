@@ -1,0 +1,123 @@
+:root {
+  /* ---------------------------------------
+    Fonts
+  --------------------------------------- */
+  font-size: 16px;
+
+  /* Font Families */
+  --font-heading: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-text: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  /* Line height */
+  --lh-small: 1.1;
+  --lh-default: 1.6;
+
+  /* Letter spacing */
+  --ls-small: 1px;
+
+  /* Font sizes */
+  --heading-100: 3.15rem;
+  --heading-200: 2.5rem;
+  --heading-300: 1.75rem;
+  --heading-400: 1.5rem;
+  --heading-500: 1rem;
+  --heading-600: 0.88rem;
+  --text-default: 1rem;
+  --text-small: 0.88rem;
+  --text-large: 1.25rem;
+
+  /* ---------------------------------------
+    Spacing
+  --------------------------------------- */
+  --spacing-100: 0.5rem;
+  --spacing-200: 1rem;
+  --spacing-300: 2rem;
+  --spacing-400: 3rem;
+  --spacing-500: 4rem;
+  --spacing-600: 5rem;
+  --spacing-700: 6rem;
+  --spacing-800: 7rem;
+
+  /* ---------------------------------------
+    Radi
+  --------------------------------------- */
+  --radi-default: 0.25rem;
+  --radi-medium: 0.5rem;
+  --radi-large: 1rem;
+
+  /* ---------------------------------------
+    Colors 
+  --------------------------------------- */
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+
+  /* Grays */
+  --color-gray-100: rgba(241, 243, 245, 1);
+  --color-gray-200: rgba(233, 236, 239, 1);
+  --color-gray-300: rgba(222, 226, 230, 1);
+  --color-gray-400: rgba(206, 212, 218, 1);
+  --color-gray-500: rgba(173, 181, 189, 1);
+  --color-gray-600: rgba(134, 142, 150, 1);
+  --color-gray-700: rgba(73, 80, 87, 1);
+  --color-gray-800: rgba(52, 58, 64, 1);
+  --color-gray-900: rgba(33, 37, 41, 1);
+
+  /* Primary */
+  --color-primary-100: rgba(222, 241, 241, 1);
+  --color-primary-200: rgba(197, 231, 231, 1);
+  --color-primary-300: rgba(170, 220, 220, 1);
+  --color-primary-400: rgba(105, 193, 193, 1);
+  --color-primary-500: rgba(22, 157, 159, 1);
+  --color-primary-600: rgba(16, 124, 136, 1);
+  --color-primary-700: rgba(11, 95, 114, 1);
+  --color-primary-800: rgba(7, 69, 92, 1);
+  --color-primary-900: rgba(4, 50, 76, 1);
+
+  /* Secondary */
+  --color-secondary-100: rgba(253, 239, 233, 1);
+  --color-secondary-200: rgba(251, 216, 200, 1);
+  --color-secondary-300: rgba(248, 192, 167, 1);
+  --color-secondary-400: rgba(242, 144, 102, 1);
+  --color-secondary-500: rgba(237, 97, 36, 1);
+  --color-secondary-600: rgba(203, 68, 26, 1);
+  --color-secondary-700: rgba(170, 44, 18, 1);
+  --color-secondary-800: rgba(137, 24, 11, 1);
+  --color-secondary-900: rgba(113, 10, 6, 1);
+
+  /* Misc */
+  --color-success-100: rgba(211, 249, 216, 1);
+  --color-success-500: rgba(81, 207, 102, 1);
+  --color-success-900: rgba(43, 138, 62, 1);
+  --color-info-100: rgba(208, 235, 255, 1);
+  --color-info-500: rgba(51, 154, 240, 1);
+  --color-info-900: rgba(24, 100, 171, 1);
+  --color-warning-100: rgba(255, 243, 191, 1);
+  --color-warning-500: rgba(252, 196, 25, 1);
+  --color-warning-900: rgba(230, 119, 0, 1);
+  --color-danger-100: rgba(255, 227, 227, 1);
+  --color-danger-500: rgba(250, 82, 82, 1);
+  --color-danger-900: rgba(201, 42, 42, 1);
+
+  /* ---------------------------------------
+    Shadows
+  --------------------------------------- */
+  --shadow-100: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  --shadow-200: 0px 4px 6px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 8px -4px rgba(24, 39, 75, 0.08);
+  --shadow-300: 0px 6px 8px -6px rgba(24, 39, 75, 0.12),
+    0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+  --shadow-400: 0px 6px 12px -6px rgba(24, 39, 75, 0.12),
+    0px 8px 24px -4px rgba(24, 39, 75, 0.08);
+  --shadow-500: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+    0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+  --shadow-600: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
+    0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+  --shadow-700: 0px 8px 22px -6px rgba(24, 39, 75, 0.12),
+    0px 14px 64px -4px rgba(24, 39, 75, 0.12);
+  --shadow-800: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  --shadow-outline: 0 0 0 0.25rem;
+}
